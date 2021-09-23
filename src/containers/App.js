@@ -3,7 +3,7 @@ import Cardlist from "../components/Cardlist";
 import SearchInput from "../components/SearchInput";
 import Margin from "../components/Margin.js";
 import "./App.css";
-import Scroll from "../components/Scroll.js";
+
 
 
 
@@ -38,9 +38,7 @@ class App extends React.Component {
 				<h1 className="ff">Robofriends</h1>
 				<SearchInput SearchChange={this.OnSearchChange} />
 				<Margin />
-				<Scroll>
 				<Cardlist Robots={filtered} />
-				</Scroll>
 			</div>
 		);
 	}
