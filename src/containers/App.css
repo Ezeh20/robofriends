@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Robotaur';
+    src: url('Robotaur.woff2') format('woff2'),
+        url('Robotaur.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.ff{
+    font-family: 'Robotaur';
+    color: rgba(0, 0, 255, 0.8);
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+h2,h3{
+     font-family: 'Robotaur';
+      color: rgba(0, 0, 255, 0.5);
+}
+.zz{
+   font-family: 'Robotaur';
+      color: rgba(0, 0, 255, 0.5); 
+}
+p{
+    font-size: 20px;
+      color: white; 
+}
+
